@@ -1,0 +1,62 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:red;
+	animation: example 5s infinite alternate;
+}
+
+
+
+@keyframes example{
+		from{	background-color:red;	}
+		to	{	background-color:yellow;	}
+	}
+	
+p{
+	font-family:"Georgia";
+}
+h2{
+	height:50px;
+	padding:10px 100px;
+	text-align:center;
+	background-color:black;
+	color:white;
+	border-radius:20px 20px 0px 0px;
+}
+
+
+#conatiner{
+	margin:90px 25%;
+	
+	height:350px;
+	background-color:rgba(133,193,233, 0.3);
+	width:50%;
+	border-radius:20px;
+	
+}
+#pad{
+	padding-left:20px;
+	font-family:"Lucida Bright";
+	font-style:bold;
+}
+#selection{
+	font-size:25px;
+}
+#calculatebutton{
+	margin-left:100px;
+	background-color:red;
+	color:white;
+	font-size:20px;
+}
+#totaltip{
+	
+	color:white;
+	height:100px;
+	margin:20px 46%;
+	background-color:rgba(133,193,233, 0.3);
+	width:100px;
+	border-radius:12px;
+	padding-top:12px;
+	padding-left:20px;
+	font-size:40px;
+}
